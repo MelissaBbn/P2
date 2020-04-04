@@ -1,0 +1,242 @@
+body {
+    width: 900px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    font-size: 17px;
+   }
+main
+{
+	margin-left: 50px;
+	margin-top: 70px;
+    width:70%;
+}
+main p
+{
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+main h3
+ {
+    border-bottom: 1px solid #FFAB91;
+    padding: 10px;
+ 
+ }
+.underline 
+{
+  border-bottom: 1px solid #FFAB91;
+}
+img
+{
+	display: block;
+    height: 195px;
+    border-radius: 100px;
+    border: 1px solid #455A64;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+aside
+ {
+    width:30%;
+    background-color: #FFAB91;
+}
+.iconesloisirs
+{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconesloisirs div
+{
+    width: 60px;
+    height: 59px;
+    display: flex;
+    border: 1px solid;
+    border-radius: 100%;
+    border: 1px solid #455A64;
+}
+
+.iconesloisirs div i
+{
+	color: #455A64;
+    font-size: 30px;
+    margin: auto;
+    
+}
+
+.categorie
+{
+    background-color: #455A64;
+    color: #FFAB91;
+    text-align: center;
+    padding: 7px;
+}
+.informations
+{
+    text-align: justify;
+    padding: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+footer{
+        position: absolute;
+    bottom: 0;
+    width: 30%;
+}
+ h1
+ {
+ 	font-size: 50px;
+ 	margin: 0px;
+    margin-top: 25px;
+ 	padding: 0px;
+    font-size: 45px;
+ }
+ h2
+ {
+ 	 margin-top: 0;
+     padding-top: 0;
+     margin-bottom: 100px;
+ }
+ h3
+ {
+    font-size: 20px;
+ }
+ h4
+ {
+ 	margin-top: 20px;
+    margin-bottom: 0px;
+ }
+ h5
+ {
+ 	margin-top: 0px;
+    margin-bottom: 10px;
+ }
+
+ ul
+ {
+ 	display: flex;
+    padding: 0;
+    list-style:none;
+ }
+.prénom
+{
+    color : #FFAB91;
+}
+#parcours i
+{
+	color: #FFAB91;
+	margin-right: 20px;
+}
+
+.formation article{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dateFormations{
+width: 40%;
+}
+
+.titleFormations{
+width: 80%;
+}
+.experiencepro article{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dateExpepro{
+width: 40%;
+}
+
+.titleExpepro{
+width: 80%;
+}
+.recommandations article
+{
+display: flex;
+}
+.recommandations div
+{
+width: 50%;
+}
+
+@media only screen and (max-width: 900px){
+    body {
+        width: 100%;
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        margin-left:0;
+    }
+    footer {
+        position: relative;
+        width: 100%;
+    }
+    header{
+    	text-align: center;
+    }
+    img{
+        margin: auto;
+    }
+    .informations {
+        text-align: center;
+    }
+    main h3{
+    	text-align: center;
+    }
+    .formation article
+    {
+    flex-direction: column;
+    text-align: center;
+    }
+    .dateFormations {
+	    width: 100%;
+	    margin: auto;
+	}
+	ul {
+	    flex-direction: column;
+	}
+	#parcours i {
+		margin-right: 0;
+	}
+	.titleFormations {
+	    width: 75%;
+    	margin: auto;
+	}
+
+    .experiencepro article
+    {
+    flex-direction: column;
+    text-align: center;
+    }
+
+    .dateExpepro {
+	    width: 100%;
+	    margin: auto;
+	}
+	.titleExpepro{
+		width: 75%;
+    	margin: auto;
+	}
+    .recommandations article
+    {
+    flex-direction: column;
+    text-align: center;
+    }
+    .recommandations div {
+    	margin: auto;
+    	width: 75%;
+	}
+}
