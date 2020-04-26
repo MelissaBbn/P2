@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: row;
     overflow-x: hidden;
-    font-size: 17px; 
+    font-size: 13px; 
     margin:auto;
    }
 main
@@ -168,6 +168,15 @@ display: flex;
 {
 width: 50%;
 }
+.àproposdemoi
+{
+line-height: 1.5em;
+}
+a 
+{ 
+    text-decoration: none;
+    color: black;
+ }
 
 @media only screen and (max-width: 900px){
     body {
